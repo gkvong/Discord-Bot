@@ -2,20 +2,16 @@
 import discord
 from discord.ext import commands
 import os
-import sys
-import random
-import string
 import asyncio
 import json
 import requests
-from datetime import datetime
 
 from translate import Translator
 import wikipedia
 
+# Load environment variables from .env
 from dotenv import load_dotenv
 load_dotenv()
-
 API_KEY = os.getenv('weatherapp_id')
 
 class Useful(commands.Cog, name = "Useful Commands"):
