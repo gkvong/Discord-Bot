@@ -1,5 +1,5 @@
 # Discord-Bot
-This is a discord bot written in Python using [discord.py](https://github.com/Rapptz/discord.py) that features various commands listed [here](#bot-commands). The commands are written as cogs found in the *modules* folder and can be easily implemented into an existing bot.
+This is a Discord bot written in Python using [discord.py](https://github.com/Rapptz/discord.py) that features various commands listed [here](#bot-commands). The commands are written as cogs found in the *modules* folder and can be easily implemented into an existing bot.
 
 ### Dependencies
 * Python 3.6+
